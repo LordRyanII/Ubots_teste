@@ -8,12 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/backend/src/server/routes/Principal.js",
-      "dest": "/backend/src/server/routes/Principal.js"
+      "src": "./src/server/routes/Principal.js",
+      "dest": "./src/server/routes/Principal.js"
     },
     {
-      "src": "/backend/(.*)",
-      "dest": "/backend/$1"
+      "src": "/src/(.*)",
+      "dest": "/src/$1"
     }
   ]
 }
