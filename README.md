@@ -82,9 +82,9 @@
 <h2>Intalação Frontend</h2>
 
  1. Para instalar o frontend e o backend, basta abrir com o botão direito do mouse o arquivo "initialize",
- 2. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/capturaInicialInitialize.png)
- 3. Após basta acessar o link que retornará no initialize
- 4. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/initializePowerShell.png)
+ 2. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/initializePowerShell.png) 3. Após basta acessar o link que retornará no initialize
+ 4.![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/capturaInicialInitialize.png)
+
 <br>
 <hr>
 <h3>Capturas de tela:</h3>
