@@ -1,6 +1,7 @@
 
 
 
+
 # Ubot_testeTécnico
  <p>Desafio técnico da ubots, nesse desafio consistia em criar um sistema FullStack com javascript que atendesse uma empresa do setor financeiro. Nesse desafio precisavamos criar um sistema que recebesse dados via api rest e direcionasse para as filas corretas, e vinculasse ao atendente o usuário da solicitação.</p> <br>
  
@@ -81,9 +82,9 @@
 <h2>Intalação Frontend</h2>
 
  1. Para instalar o frontend e o backend, basta abrir com o botão direito do mouse o arquivo "initialize",
- 2. https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/capturaInicialInitialize.png
+ 2. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/capturaInicialInitialize.png)
  3. Após basta acessar o link que retornará no initialize
- 4. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/capturaInicialInitialize.png)
+ 4. ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/initializePowerShell.png)
 <br>
 <hr>
 <h3>Capturas de tela:</h3>
