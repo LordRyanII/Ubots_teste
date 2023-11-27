@@ -1,4 +1,5 @@
 
+
 # Ubot_testeTécnico
  <p>Desafio técnico da ubots, nesse desafio consistia em criar um sistema FullStack com javascript que atendesse uma empresa do setor financeiro. Nesse desafio precisavamos criar um sistema que recebesse dados via api rest e direcionasse para as filas corretas, e vinculasse ao atendente o usuário da solicitação.</p> <br>
  
@@ -84,6 +85,12 @@
 
 ![enter image description here](https://github.com/LordRyanII/Ubots_teste/blob/main/frontend/public/imagem/github-imagem/initializePowerShell.png)
 <br>
+<hr>
+<h3>Configurações do arquivo .env:</h3>
+- Para o arquivo .env, existe duas variavéis uma se chama: CLIENTEDATABASE, ela é a responsavél pelo banco de dados mongoDb. A outra é a SECRETKEYTOKEN, responsavél pela assinatura do jwt token. Crie um arquivo na raíz do repositório, um arquivo .env e adicione as variavéis. Ex:
+<b>CLIENTEDATABASE</b>=mongodb+srv://<Seu database>:<suaSenha>*@cluster0.xvyxmge.mongodb.net/
+<b>SECRETKEYTOKEN</b>=  <Sua assinatura>
+
 <hr>
 <h3>Capturas de tela:</h3>
 
