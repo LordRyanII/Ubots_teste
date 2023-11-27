@@ -2,8 +2,8 @@
     "version": 2,
     "builds": [
       {
-        "src": "frontend/package.json", // O caminho para o seu package.json do front-end
-        "use": "@vercel/node" // Tipo de build para o front-end (pode variar dependendo do seu projeto)
+        "src": "frontend/package.json",
+        "use": "@vercel/node" 
       },
       {
         "src": "backend/src/server/server.js",
@@ -15,11 +15,11 @@
         "src": "backend/src/server/routes/Principal.js"
       },
       {
-        "src": "frontend/src/App.tsx", // Rota para o front-end
-        "dest": "/frontend/$1", // Destino para os arquivos do front-end
+        "src": "frontend/src/App.tsx",
+        "dest": "/frontend/$1",
         "cleanUrls": true,
         "headers": {
-          "Cache-Control": "s-maxage=1, stale-while-revalidate" // Exemplo de configuração de cache
+          "Cache-Control": "s-maxage=1, stale-while-revalidate"
         }
       }
     ]
