@@ -1,1 +1,0 @@
-const {} = require('./src/server/routes/Principal.js')
