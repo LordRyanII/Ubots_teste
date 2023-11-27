@@ -25,8 +25,7 @@
 <br>
 <h2>Intalação Backend</h2>
 <p>Para iniciar apenas o  backend digite no terminal:</p>
-- cd backend > cd src / npm install > npm start.<br>
-- No postman, copie as uri: http://localhost:3001/v1/ | Url base<br>
+- cd backend > cd src > npm install > npm start.<br>
 
 <h3>Uso da api do atendente</h3>
 <p>Use as seguinte uri para manipular as requisições de atendimento: </p>
@@ -34,22 +33,22 @@
  - POST: http://localhost:4005/invext/cadastro  =>Cria o cadastro na plataforma, retorna o token de usuário.
  <br>
 
-				{
+	{
 	
-						"nome":  "String",
-						"email":  "String",
-						"senha":  "String",
-						"teams":  "String"
+			"nome":  "String",
+			"email":  "String",
+			"senha":  "String",
+			"teams":  "String"
 
-				}
+	}
 				 
 <br>
  - POST: http://localhost:4005/invext/login  =>Faz login no sistema, necessário para acessar as rotas, retorna o token criado no cadastro,
 
-				{
-					"email":  "ryanoliveiram2015@gmail.com",
-					"senha":  "usuarior"
-				}
+		{
+			"email":  "ryanoliveiram2015@gmail.com",
+			"senha":  "usuarior"
+		}
 				 
 				 
 <br>	 
@@ -57,9 +56,9 @@
  - POST: http://localhost:4005/invext/status => Mudar status do atendente, para mudar o status é necessário informar o cabeçalho do tipo: Authorization + token gerado
 	
 				
-				{
-				"status":  "Online"
-				}
+		{
+			"status":  "Online"
+		}
 <br>
 
  - GET:http://localhost:4005/invest/user/info  => Retorna as informações do usuário. Retorna o nome, email... Para a chamada é necessário informar o token no cabeçalho da requisição sendo: authorization + token.
