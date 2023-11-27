@@ -29,20 +29,24 @@
 <h3>Uso da api do atendente</h3>
 <p>Use as seguinte uri para manipular as requisições de atendimento: </p>
 <br>
+
  - POST: http://localhost:4005/invext/cadastro  =>Cria o cadastro na plataforma, retorna o token de usuário.
  <br>
 
-	{
 	
-			"nome":  "String",
-			"email":  "String",
-			"senha":  "String",
-			"teams":  "String"
+	
+			{
+				"nome":  "String",
+				"email":  "String",
+				"senha":  "String",
+				"teams":  "String"
+			}
 
-	}
+	
 				 
-<br>
- - POST: http://localhost:4005/invext/login  =>Faz login no sistema, necessário para acessar as rotas, retorna o token criado no cadastro,
+<br> 
+
+ - POST : http://localhost:4005/invext/login  =>Faz login no sistema, necessário para acessar as rotas, retorna o token criado no cadastro,
 
 		{
 			"email":  "ryanoliveiram2015@gmail.com",
@@ -87,9 +91,9 @@
 <br>
 <hr>
 <h3>Configurações do arquivo .env:</h3>
-- Para o arquivo .env, existe duas variavéis uma se chama: CLIENTEDATABASE, ela é a responsavél pelo banco de dados mongoDb. A outra é a SECRETKEYTOKEN, responsavél pela assinatura do jwt token. Crie um arquivo na raíz do repositório, um arquivo .env e adicione as variavéis. Ex:
-<b>CLIENTEDATABASE</b>=mongodb+srv://<Seu database>:<suaSenha>*@cluster0.xvyxmge.mongodb.net/
-<b>SECRETKEYTOKEN</b>=  <Sua assinatura>
+- Para o arquivo .env, existe duas variavéis uma se chama: CLIENTEDATABASE, ela é a responsavél pelo banco de dados mongoDb. A outra é a SECRETKEYTOKEN, responsavél pela assinatura do jwt token. Crie um arquivo na raíz do repositório, um arquivo .env e adicione as variavéis. Ex:<br>
+<b>CLIENTEDATABASE</b>=mongodb+srv://<Seu database>:<suaSenha>*@cluster0.xvyxmge.mongodb.net/<br>
+<b>SECRETKEYTOKEN</b>=  <Sua assinatura><br>
 
 <hr>
 <h3>Capturas de tela:</h3>
